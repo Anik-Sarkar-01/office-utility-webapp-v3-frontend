@@ -332,7 +332,7 @@ export default function LeavePage() {
       }
     };
     if (auth.userId) getUserData();
-  }, [auth.userId]);
+  }, [auth.userId, today]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;

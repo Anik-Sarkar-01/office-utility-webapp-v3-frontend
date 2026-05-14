@@ -6,7 +6,6 @@ import EditEmployee from "./User/pages/EditEmployee";
 import { useCallback, useState } from "react";
 import userContext from "./context/userContext";
 import LeavePage from "./Dashboard/components/LeavePage";
-import ApproveLeave from "./Dashboard/components/ApproveLeave";
 import axios from "axios";
 import Profile from "./UserProfile/pages/Profile";
 import { ConfigProvider } from "antd";

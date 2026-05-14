@@ -5,7 +5,7 @@ const NotFound = () => {
   return (
     <div>
       <div className="d-flex justify-content-center align-content-center">
-        <img src={errorImg} className="error-image" />
+        <img src={errorImg} alt="Page not found" className="error-image" />
       </div>
       <div className="d-flex justify-content-center">
         <h4>Could not find the page you are looking for...</h4>

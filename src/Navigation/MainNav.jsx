@@ -89,7 +89,7 @@ function MainNav() {
     if (!authUser.isLoggedIn) navigate("/login");
   }, [authUser.isLoggedIn, navigate]);
 
-  useEffect(() => { authUser.getUserData(); }, []);
+  useEffect(() => { authUser.getUserData(); }, [authUser]);
 
   // Close dropdown on outside click
   useEffect(() => {
