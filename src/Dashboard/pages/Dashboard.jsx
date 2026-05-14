@@ -48,7 +48,7 @@ const Dashboard = () => {
           {authUser.isSuperUser && (
             <div className="d-flex justify-content-end">
               <Link to="/signup">
-                <Button className="custom-button bg-white">
+                <Button className="custom-button">
                   + Add a New Employee
                 </Button>
               </Link>

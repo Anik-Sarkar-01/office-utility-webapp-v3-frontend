@@ -4,7 +4,6 @@ import { RxDashboard } from "react-icons/rx";
 import { IoShareSocialSharp, IoBanOutline } from "react-icons/io5";
 import {
   FaLinkedin,
-  FaUserPlus,
   FaMailBulk,
   FaGithub,
   FaUserCircle,
@@ -25,8 +24,6 @@ const getIcon = (icon) => {
       return <FaMailBulk className="mb-1 me-2" />;
     case "linkedIn":
       return <FaLinkedin className="mb-1 me-2" />;
-    case "joiningDate":
-      return <FaUserPlus className="mb-1 me-2" />;
     case "githubId":
       return <FaGithub className="mb-1 me-2" />;
     case "share":
