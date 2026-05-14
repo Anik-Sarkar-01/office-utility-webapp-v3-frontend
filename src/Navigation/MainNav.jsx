@@ -143,7 +143,7 @@ function MainNav() {
               <img src={logo} alt="DEMS" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
             </div>
             <span style={{ fontSize: "15px", fontWeight: "600", color: "#fff", letterSpacing: "0.02em" }}>
-              DEMS
+              TeamDuronto
             </span>
           </Link>
 
